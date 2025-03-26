@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E6E6FA; /* Warna Lavender */
+    color: #4B0082; /* Warna Ungu Elegan */
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+h1, h2 {
+    color: #6A5ACD; /* Lavender Dark */
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+}
+
+table {
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #6A5ACD;
+    padding: 10px;
+}
+
+button {
+    background-color: #9370DB; /* Medium Purple */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8A2BE2; /* Blue Violet */
+}

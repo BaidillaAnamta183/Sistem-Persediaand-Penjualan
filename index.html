@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gudang & Penjualan - Universitas Diponegoro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="assets/images/undip-logo.png" alt="Logo Universitas Diponegoro" class="logo">
+        <h1>Manajemen Persediaan & Penjualan</h1>
+    </header>
+
+    <section>
+        <h2>Tambah Barang</h2>
+        <input type="text" id="namaBarang" placeholder="Nama Barang">
+        <input type="number" id="stokBarang" placeholder="Stok">
+        <button onclick="tambahBarang()">Tambah</button>
+    </section>
+
+    <section>
+        <h2>Daftar Barang</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Stok</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody id="daftarBarang"></tbody>
+        </table>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
